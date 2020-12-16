@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name = "searchkey" value = "mobiles"></parameter>
+<parameter name = "heading" value = "The Product Names are below"></parameter>
+<parameter name = "heading1" value = "The Product Name with out duplicates"></parameter>
+<parameter name = "heading2" value = "The Product Cost greater than 10,000"></parameter>
+  <test name="Test">
+  <classes>
+  <class name = "org.test.ProgramFirst"> </class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
